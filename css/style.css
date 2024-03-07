@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    font-family: 'Open Sans';
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -52,11 +53,22 @@ table {
     font-size: 26px;
 }
 
+.h2 {
+    font-size: 20px;
+}
+
+.h3 {
+    font-size: 20px;
+}
+
 nav {
     padding: 16px;
     justify-content: space-between;
 }
 
+a {
+    text-decoration: none;
+}
 nav, nav>ul {
     display: flex;
 }
@@ -72,19 +84,12 @@ nav>ul>li:last-child {
     margin-right: 0;
 }
 
-#header li:last-child {
-    color: red;
-}
-
 .hero {
     min-height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    font-family: 'Open Sans';
-    /* background-image: url("../img/wood-background.jpg");
-    background-size: cover; */
 }
 
 .hero span {
@@ -94,3 +99,125 @@ nav>ul>li:last-child {
 .hero img {
     width: 30rem;
 }
+
+footer {
+    background-color: #6E07F3;
+    text-align: center;
+    color: white;
+    padding: 4rem;
+}
+
+footer .banner {
+    background-color: #141c3a;
+    border-radius: 1rem;
+    margin-top: -8rem;
+    margin-bottom: 4rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .banner a {
+    border: 2px solid #5BE9B9;
+    border-radius: 2rem;
+    padding: 1rem;
+    transition: background-color .2s, color .2s;
+}
+
+footer .banner a:visited {
+    color: white;
+}
+
+footer .banner a:hover {
+    background-color: #5BE9B9;
+    color: black;
+}
+
+footer p {
+    font-size: 1.5rem;
+}
+
+footer .logos {
+    margin: 1rem
+}
+
+.image-separator {
+    display: flex;
+    justify-content: center;
+}
+
+.image-separator img {
+    max-width: 850px;
+}
+
+section.main {
+    text-align: center;
+    padding: 8rem;
+    background-color: #6E07F3;
+    color: white;
+}
+
+section.main>.h2 {
+    margin: 2rem 0;
+    font-weight: bold;
+}
+
+section.main p {
+    line-height: 1.5rem;
+}
+
+.services-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    max-width: 950px;
+    border-radius: 1rem;
+    margin-top: -3rem;
+    background-color: white;
+    -webkit-box-shadow: 3px 4px 12px 0px rgba(177, 170, 177);
+    -moz-box-shadow: 3px 4px 12px 0px rgba(177, 170, 177);
+    box-shadow: 3px 4px 12px 0px rgb(177, 170, 177);
+}
+
+.service {
+    padding: 5rem 2rem 2rem;
+    text-align: center;
+}
+
+.service:first-child {
+    border-right: 1px solid #5BE9B9;
+}
+
+.service:last-child {
+    border-left: 1px solid #5BE9B9;
+}
+
+.service img {
+    width: 70px;
+    background-color: #5BE9B9;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.service .h3 {
+    font-weight: bold;
+    margin: 1rem
+}
+
+.service .title {
+    margin: 2rem 0 1rem;
+    color: #6E07F3;
+}
+footer .logo {
+    border: 1px solid white;
+    border-radius: 1rem;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+
