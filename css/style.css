@@ -62,6 +62,15 @@ table {
     font-size: 20px;
 }
 
+h3.espacamento{
+    padding: 15px;
+}
+
+h3.maior{
+    font-size: 25px;
+}
+
+
 nav {
     padding: 16px;
     justify-content: space-between;
@@ -108,15 +117,16 @@ nav>ul>li:last-child {
     margin-top: 40px;
 }
 
-.hero img {
-    width: 30rem;
-}
-
 footer {
     background-color: rgb(13, 22, 50);
     text-align: center;
     color: white;
     padding: 4rem;
+}
+
+img.gradiente{
+    background: rgb(255,248,230);
+    background: radial-gradient(circle, rgba(255,248,230,1) 0%, rgba(63,94,251,1) 100%);
 }
 
 .banner {
