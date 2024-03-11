@@ -251,7 +251,9 @@ section.main p {
 
 .service .title {
     margin: 2rem 0 1rem;
-    color: #3460AB;
+    font-size: 14px;
+    color: #0D1632;
+    font-weight: bold;
 }
 footer .logo {
     border: 1px solid white;
