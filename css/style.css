@@ -207,13 +207,13 @@ section.main p {
 .services-wrapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 
 
 .services {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     max-width: 950px;
     border-radius: 1rem;
     margin-top: -3rem;
