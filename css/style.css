@@ -50,8 +50,8 @@ table {
 
 .h1 {
     color: #141c3a;
-    font-size: 36px;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: bolder;
 }
 
 .h2 {
@@ -75,9 +75,6 @@ details{
     padding: 5px;
 
 }   
-
-summary{
-}
 
 nav {
     padding: 16px;
@@ -115,12 +112,12 @@ nav>ul>li:last-child {
 
 
 .hero {
-    min-height: 200px;
+    min-height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .hero span {
@@ -210,6 +207,10 @@ section.main p {
     margin-bottom: 3rem;
 }
 
+.subtitle-wrapper {
+    display: flex;
+    justify-content: center;
+}
 
 .services {
     display: grid;
@@ -237,6 +238,19 @@ section.main p {
     box-shadow: 3px 4px 12px 0px rgb(177, 170, 177);
     padding: 1rem 15rem 2rem;
     text-align: center;
+}
+
+.subtitle {
+    max-width: 950px;
+    border-radius: 1rem;
+    background-color: #141c3a;
+    -webkit-box-shadow: 3px 4px 12px 0px rgba(177, 170, 177);
+    -moz-box-shadow: 3px 4px 12px 0px rgba(177, 170, 177);
+    box-shadow: 3px 4px 12px 0px rgb(177, 170, 177);
+    padding: 1rem 15rem 1rem;
+    text-align: center;
+    font-weight: 700;
+    color: white;
 }
 
 .service:first-child {
