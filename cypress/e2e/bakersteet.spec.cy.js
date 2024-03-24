@@ -12,7 +12,7 @@ describe('BAKER STREET TESTS (TESTS hehe)', function() {
       .get('[href="#skills"]')
       .click()
       cy
-      .get('[class="h3 Maior"]')
+      .get('[class="h3 maior"]')
       .first()
       .should('contain',"QA/TESTER")
     })
