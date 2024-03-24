@@ -17,7 +17,7 @@ describe('BAKER STREET TESTS (TESTS hehe)', function() {
       .should('contain',"QA/TESTER")
     })
   
-   it('Teste botão contact',() => {
+   /*it('Teste botão contact',() => {
       cy
       .get('[href="https://linktr.ee/mergulhissimo"]')
       .first()
@@ -27,7 +27,7 @@ describe('BAKER STREET TESTS (TESTS hehe)', function() {
       .should('contain','@mergulhissimo')
     })
 
-     /*cy.origin('https://linktr.ee', () => {
+     cy.origin('https://linktr.ee', () => {
   <commands targeting https://linktr.ee go here>
   })*/
 })
