@@ -17,4 +17,17 @@ describe('BAKER STREET TESTS (TESTS hehe)', function() {
       .should('contain',"QA/TESTER")
     })
   
+    /*it('Teste botão contact',() => {
+      cy
+      .get('[href="https://linktr.ee/mergulhissimo"]')
+      .first()
+      .click()
+      cy
+      .get('[id="profile-mergulhissimo"]')
+      .should('contain','@mergulhissimo')
+    })
+
+    cy.origin('https://linktr.ee', () => {
+  <commands targeting https://linktr.ee go here>
+  })*/
 })
